@@ -27,6 +27,7 @@ const Navbar = () => {
         dispatch(setUser( null))
         persistor.purge();  
         localStorage.removeItem("accesstoken");
+        navigate('/')
         toast.success(res.data.message)
       }
     } catch (error) {
