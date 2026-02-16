@@ -1,0 +1,2 @@
+//user register route link from postman with method
+post http://localhost:3000/users/register
